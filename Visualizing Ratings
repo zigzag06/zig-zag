@@ -1,0 +1,5 @@
+sns.set_style('white')
+%matplotlib inline
+plt.figure(figsize =(10, 4))
+ratings['num of ratings'].hist(bins = 70)
+Visualizing Ratings
