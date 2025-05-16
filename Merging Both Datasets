@@ -1,0 +1,2 @@
+data = pd.merge(df, movie_titles, on='item_id')
+data.head()
