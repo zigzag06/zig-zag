@@ -1,0 +1,5 @@
+ratings = pd.DataFrame(data.groupby('title')['rating'].mean()) 
+
+ratings['num of ratings'] = pd.DataFrame(data.groupby('title')['rating'].count())
+
+ratings.head()
