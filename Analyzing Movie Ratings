@@ -1,1 +1,2 @@
 data.groupby('title')['rating'].mean().sort_values(ascending=False).head()
+data.groupby('title')['rating'].count().sort_values(ascending=False).head()
