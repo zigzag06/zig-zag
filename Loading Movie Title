@@ -1,0 +1,2 @@
+movie_titles = pd.read_csv('Movie_Id_Titles.csv')
+movie_titles.head()
